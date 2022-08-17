@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-soloapp/static/css/main.fd2be8ee.css",
+    "main.js": "/my-soloapp/static/js/main.6be8b85e.js",
+    "static/js/787.8dc1c164.chunk.js": "/my-soloapp/static/js/787.8dc1c164.chunk.js",
+    "index.html": "/my-soloapp/index.html",
+    "main.fd2be8ee.css.map": "/my-soloapp/static/css/main.fd2be8ee.css.map",
+    "main.6be8b85e.js.map": "/my-soloapp/static/js/main.6be8b85e.js.map",
+    "787.8dc1c164.chunk.js.map": "/my-soloapp/static/js/787.8dc1c164.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd2be8ee.css",
+    "static/js/main.6be8b85e.js"
+  ]
+}
