@@ -1,0 +1,177 @@
+@import 'colors';
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    background-color: #f5f7fb;
+    font-family: 'Karla', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    img {
+        z-index: -1;
+    }
+    .y_img {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .b_img {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+
+.Container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+    &_welcome {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: $primary;
+        h1 {
+            margin: 0;
+        }
+        p {
+            margin-top: 10px;
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+        button {
+            padding: 1em;
+            background-color: $button;
+            color: white;
+            width: 10rem;
+            border-radius: 7.94px;
+            margin-top: 2rem;
+            cursor: pointer;
+            border: none;
+        }
+    }
+
+
+    &_quiz {        
+        width: 80vw;
+        max-width: 730px;
+        text-align: start;
+        margin-left: 6rem;
+        margin-right: 5rem;
+        color: $primary;
+        border-bottom: 2px solid #DBDEF0;
+        margin-bottom: 0rem;
+        font-family: 'Karla', -apple-system;
+
+        &_answers {
+            display: flex;
+            gap: 1em;
+            align-items: center;
+            margin: 0;
+            margin-bottom: 1.5rem;
+            white-space: nowrap;
+            
+            .answer {
+                border: 1px solid $primary;
+                border-radius: 8px;
+                padding: .6rem;
+                color: $primary;
+                background-color: #f5f7fb;
+                cursor: pointer;
+                margin-top: 1rem;
+                font-size: 11px;
+                font-family: 'Inter';
+                font-weight: 700;
+                text-align: center;
+            }
+            .answered {
+                border: 1px solid $primary;
+                border-radius: 8px;
+                padding: .6rem;
+                color: #293264;
+                background: #D6DBF5;
+                cursor: pointer;
+                margin-top: 1rem;
+                font-size: 11px;
+                font-family: 'Inter';
+                font-weight: 700;
+                text-align: center;
+            }
+            .Wrong {
+                border: 1px solid $primary;
+                border-radius: 8px;
+                padding: .6rem;
+                color: #293264;
+                background: #F8BCBC;
+                cursor: pointer;
+                margin-top: 1rem;
+                font-size: 11px;
+                font-family: 'Inter';
+                font-weight: 700;
+                text-align: center;
+            }
+            .Correct {
+                border: 1px solid $primary;
+                border-radius: 8px;
+                padding: .6rem;
+                color: #293264;
+                background: #94D7A2;
+                cursor: pointer;
+                margin-top: 1rem;
+                font-size: 11px;
+                font-family: 'Inter';
+                font-weight: 700;
+                text-align: center;
+            }
+        }
+        .h3 {
+            margin-bottom: .5rem;
+            font-size: 11px;
+            color: $primary;
+            font-weight: 700;
+            
+        }
+    }
+
+    .check {
+        padding: 10px 21px;
+        height: 35px;
+        border-radius: 10px;
+        background-color: $button;
+        color: white;
+        margin-top: 1rem;
+        border: none;
+        font-family: "inter";
+        margin-bottom: 1rem;
+        cursor: pointer;
+    }
+    p {
+        color: #293264;
+        font-size: 15px;
+        margin-bottom: 0;
+        margin-top: 10px;
+        padding: 0;
+    }
+    .Last {
+        font-weight: bold;
+    }
+}
+
+
+  
